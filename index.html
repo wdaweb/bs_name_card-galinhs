@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bs_name_card</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <style>
+        img {
+            width: 50%;
+            height: 50%;
+        }
+
+        .logo {
+            background: #444440;
+        }
+
+        .name {
+            font-size: 1.2rem;
+        }
+
+        @media (min-width: 576px) {
+            img {
+                width: auto;
+                height: 250px;
+            }
+
+            .card-body {
+                padding: 3rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container vh-100 d-flex justify-content-center align-items-center">
+        <div class="row">
+            <div class="col px-0">
+
+                <div class="card d-flex flex-sm-row">
+                    <div class="d-flex justify-content-center align-items-center logo">
+                        <img src="./images/front.png" alt="logo">
+                    </div>
+
+                    <div class="card-body m-4 m-md-3">
+                        <h6 class="card-subtitle m-0">Chief Electrician</h6>
+                        <h1 class="card-title my-0">Barn Henderson</h2>
+                            <p class="card-text name mb-5">Closed Circuits Co.</p>
+                            <p class="card-text">
+                                Address：123 Anywhere St., Any City, ST 12345<br>
+                                Phone：123-456-7890<br>
+                                E-mail：hello@reallygreatsite.com<br>
+                                Website：www.reallygreatsite.com
+                            </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
